@@ -4,56 +4,307 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Invisible Dragon Store</title>
+    <title>InvisaDragon Store</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
+<style>
+    body{
+       background-color: #5e6f2a; opacity:0.95;
+    }
+.caption {
+    position: relative;
+    left: 0;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+    color: rgb(228, 222, 222);
+}
+span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    opacity: 0.75;
+}
+
+.bgimg-1 {
+    background-image: url(../../dragonImages/landscape-nature-mountains-road-39391.jpeg);
+    width:90.25em;
+    height:45em;
+}
+.bgimg-2 {
+    background-image: url("../../dragonImages/pexels-photo-144352.jpeg");
+
+    min-height: 18em;
+}
+
+.bgimg-3 {
+    background-image: url(../../dragonImages/pexels-photo-460659.jpeg);
+
+    min-height: 18em;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3{
+    position: relative;
+    opacity: 0.85;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hover-dis {
+    opacity:1; 
+    transition:1s; 
+}
+
+#hover-dis:hover {
+    opacity:0;
+}
+.thumbnail{
+    border: none;
+}
+.thumbnail img{
+    box-shadow: 1em 1em 5em;
+    margin:-1em
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+.question{
+    font-size: 1.5em;
+    font-weight:bold;
+}
+.faq{
+    text-align: center
+}
+.navbar-inverse{
+    background-color: #5e6f2a;
+    border-color:  #5e6f2a;
+    text: darkgrey;
+}
+</style>
 <body>
-  
- <header><div id="topOPage"><div class="container"><div class="jumbotron">
-    <h1>INVISIBLE DRAGONS STORE</h1>
-    <h1> </h1>
-    <h4>Premiere Invisible Dragon Retailer </h4></div></div>
-    <ul id="menu">
-      <li id="menu1">menu</li>
-      <li id="about">about us</li>
-      <li id="shop">shop</li>
-      <li id="cart">cart</li>
-      <li id="faq">faq/q&a</li>
-      <li id="contact">contact us</li>
-    </ul>
-    </div>
-  <!--  Navigation Menu  -->
-   <!-- Cart-->
-  </header>
-  <section class="dragonOfTheWeek">
-    <h2>Dragon of the week</h2>
-    <p id="dOW">Prefect’s bathroom Trelawney veela squashy armchairs, SPEW: Gamp’s Elemental Law of Transfiguration. Magic Nagini bezoar, Hippogriffs Headless Hunt giant squid petrified. Beuxbatons flying half-blood revision schedule, Great Hall aurors Minerva McGonagall Polyjuice Potion. Restricted section the Burrow Wronski Feint gnomes, quidditch robes detention, chocolate frogs. Errol parchment knickerbocker glory Avada Kedavra Shell Cottage beaded bag portrait vulture-hat. Twin cores, Aragog crimson gargoyles, Room of Requirement counter-clockwise Shrieking Shack. Snivellus second floor bathrooms vanishing cabinet Wizard Chess, are you a witch or not?</p>
-    <img id="dOWimg" src="https://lh6.googleusercontent.com/0cFMWGsvakwnwKpc13Es31K962NuobM0A9woZr8j3E6V_FdL-DXSW7vhJx7TS6oBsZt-ya03qQ5EqOSi7t1_=w1920-h868-rw" alt="Invisible Dragon flying through Ford">
-  <!-- Dragon of the week -->
-      <!--   title      -->
-      <!--   paragraph about dragon   -->
-      <!--   click picture of dragon   -->
-  </section>
-  <section>
-  <!--  About -->
-      <!--  title  -->
-      <!--  paragraph about  -->
-      <!--  underlay of more dragons  -->
-    
-  </section>
-  <section>
-    <!-- Shop -->
-  </section>
-  <section>
-    <!--FAQ/Q&A-->
+
+    <section class"topSection">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <a class="navbar-brand" href="#">InvisaDragons</a>
+                      </div>
+                      <ul class="nav navbar-nav navbar-right">
+                        <li ><a href="#top">Home</a></li>
+                        <li><a href="#aboutus">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#faq">FAQs</a></li>
+                      </ul>
+                    
+                  </nav>
+                  <div class="bgimg-1">
+                <div class="caption">
+                    <a id="hover-dis">
+                        <span style="font-size: 35px" class="border">
+                            InvisaDragons
+                        </span>
+                    </a>
+                        <h4 style="padding:20px">Premiere Invisible Dragons for the Modern Age</h4>
+                </div>
+            </div>
+            </div>
     </section>
-  <section>
-    <!-- Contact Us -->
-  </section>
-  
-  
-<footer>
-    
-</footer>
-  
+
+    <section class="dragonOfWeek">
+            <div style="color: #777;background-color:white;text-align:center;padding:50px 50px;text-align: justify;">
+                <div class="row container-fluid">
+                <div class="col-md-6">
+                    <h3 style="text-align:center;margin:0em -1em 0em -1em">FEATURED DRAGON</h3>
+                    <br>
+                    <hr>
+                    <br>
+                    <p>THIS WEEK, InvisaDragons is featuring a Horntailed Hatian. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti pariatur temporibus perspiciatis ut aut iusto, voluptatibus deleniti dolorum nemo repellendus, ex sequi ea minus, quasi suscipit. Magnam ipsum vel harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit porro illo consequatur laudantium nulla. Ullam numquam autem, illo consectetur molestiae veritatis minima ipsa fugiat laborum, pariatur asperiores est distinctio id? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi tenetur reprehenderit, pariatur quaerat perferendis repudiandae molestiae optio neque ipsam iusto fuga doloribus magnam dolores ratione distinctio nemo. Magni, nostrum exercitationem.</p>
+                  </div>
+                    <div class="col-md-6" style ="margin:3.5em 0em 0em 0em">
+                        <img src="../../dragonImages/pexels-photo-143577.jpeg" alt="Invisible Horntail Haitian"
+                        height="250em" width="560em" style="box-shadow: 1em 1em 3em grey">
+                    </div>
+                    </div>
+                </div>
+    </section>
+    <section class="secondPara">
+            <div class="bgimg-2"></div>
+    </section>
+    <section id="aboutus" class="aboutUs">
+            <div style="color: #777;background-color:white;text-align:center;padding:50px 50px;text-align: justify;">
+                    <div class="row container-fluid">
+                        <div class="col-md-6" style ="margin:3.5em 0em 0em 0em">
+                            <img src="../../dragonImages/pexels-photo-176382.jpeg" alt="Invisible Rolling Roartaine"
+                            height="250em" width="560em" style="box-shadow: 1em 1em 3em grey">
+                        </div>
+                    <div class="col-md-6">
+                        <h3 style="text-align:center;margin:0em -1em 0em -1em">ABOUT US</h3>
+                        <br>
+                        <hr>
+                        <br>
+                        <p>WE here at InvisaDragons are premeire sellers of invisible dragons, as well as other mythical creatures. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti pariatur temporibus perspiciatis ut aut iusto, voluptatibus deleniti dolorum nemo repellendus, ex sequi ea minus, quasi suscipit. Magnam ipsum vel harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit porro illo consequatur laudantium nulla. Ullam numquam autem, illo consectetur molestiae veritatis minima ipsa fugiat laborum, pariatur asperiores est distinctio id? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi tenetur reprehenderit, pariatur quaerat perferendis repudiandae molestiae optio neque ipsam iusto fuga doloribus magnam dolores ratione distinctio nemo. Magni, nostrum exercitationem.</p>
+                      </div>
+                        </div>
+                    </div>
+    </section>
+    <section class"lastPara">
+            <div class="bgimg-3"></div>
+    </section>
+    <section id="shop" class="store">
+        
+            <div style="color: #777;background-color:white;text-align:center;padding:50px 50px;;">
+                <span style="font-size: 30px; text-align:center;"> DRAGONS</span>
+                <hr>
+                    <div class="row container-fluid;"" style="text-align: justify">
+            <div class="row">
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img src="/dragonImages/pexels-photo-460659.jpeg" alt="Invisible Mirkwood Skink">
+                <div class="caption">
+                  <h3>Mirkwood Skink</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum repellat, consectetur itaque, ad, id nesciunt necessitatibus at voluptatum cumque accusamus odio. Non eum atque at ratione beatae tempora deleniti. Ipsa?</p>
+                  <p>$34,000 <a href="#" class="btn btn-success" role="button">Buy now</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                      <img src="/dragonImages/pexels-photo-464328.jpeg" alt="Invisible Gregorian Mercy" style="height:17em;">
+                      <div class="caption">
+                        <h3>Gregorian Mercy</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro incidunt quaerat quisquam exercitationem explicabo a debitis, ut amet, cum, eius unde architecto iusto doloribus. Dolorem impedit itaque magni quae illo!</p>
+                        <p>$23,000 <a href="#" class="btn btn-success" role="button">Buy now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                          <img src="/dragonImages/pexels-photo-533730.jpeg" alt="Invisible Rockie Mountain Winged-Pig" style="height:17em">
+                          <div class="caption">
+                            <h3>Rockie Mountain Winged-Pig</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, velit harum dolorem, illum eveniet non sapiente odit possimus modi earum magnam repellendus fugit eius! Autem facilis inventore sed laborum ratione.</p>
+                            <p>$55,000 <a href="#" class="btn btn-success" role="button">Buy now</a></p>
+                          </div>
+                        </div>
+                      </div>
+          </div>
+          <div class="row">
+                <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                    <img src="../../dragonImages/pexels-photo-143577.jpeg" alt="Invisible Horntail Haitian"style="height:17em">
+                    <div class="caption">
+                      <h3>Horntail Haitian</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quidem amet ab excepturi nesciunt minus velit, corrupti quos maiores vero quaerat nisi, voluptates debitis commodi nemo autem alias ipsa dolorum!</p>
+                      <p>$15,000 <a href="#" class="btn btn-success" role="button">Buy now</a></p>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                          <img src="/dragonImages/rock-scotland-isle-of-skye-old-man-of-storr-39340.jpeg" alt="Cutlass-Tail" style="height:17em">
+                          <div class="caption">
+                            <h3>Cutlass-Tail</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, nemo autem dolorum sit molestias exercitationem est ab, cumque optio iste asperiores aliquam magni error aliquid numquam et saepe, vero nobis.</p>
+                            <p>$85,000 <a href="#" class="btn btn-success" role="button">Buy now</a></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                              <img src="../../dragonImages/pexels-photo-176382.jpeg" alt="Invisible Rolling Roartaine">
+                              <div class="caption">
+                                <h3>Rolling Roartaine</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ex est quis recusandae culpa doloremque animi cupiditate eligendi perferendis, dignissimos voluptatum. Ea natus consequuntur provident dicta quibusdam non numquam libero!</p>
+                                <p>$66,000 <a href="#" class="btn btn-success" role="button">Buy now</a></p>
+                              </div>
+                            </div>
+                          </div>
+              </div>
+</div>
+</div>
+    </section>
+    <section id="faq" class="faqs">
+            
+        <div style="background-color:white; padding:50px;text-align: center">
+            <span style="font-size: 30px;">FAQs</span>
+            <hr>
+            <ul>
+                <li class="question">What is an invisble dragon</li>
+                    <ul>
+                        <hr>
+                        <li>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum veniam architecto, harum tenetur dignissimos porro sunt, quam exercitationem rerum repellat vel illo optio, consectetur unde eveniet nihil nostrum a aliquid?
+                        </li>
+                    </ul>
+                    <br><br><br><br>
+            
+                <li class="question">How will my dragon be shipped to me? </li>
+                    <ul>
+                        <hr>
+                        <li>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae natus excepturi nemo dolores nesciunt in mollitia distinctio voluptas architecto error ab adipisci, iusto rerum eveniet non. Maxime provident cum sed!
+                        </li>
+                    </ul>
+                    <br><br><br><br>
+           
+                <li class="question">What should I do to prepare for my dragon's arrival?</li>
+                    <ul>
+                        <hr>
+                        <li>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae natus excepturi nemo dolores nesciunt in mollitia distinctio voluptas architecto error ab adipisci, iusto rerum eveniet non. Maxime provident cum sed!
+                        </li>
+                    </ul>
+                    <br><br><br><br>
+               
+                    <li class="question">My dragon has set fire to my house and/or village. What should I do?</li>
+                        <ul>
+                            <hr>
+                            <li>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae natus excepturi nemo dolores nesciunt in mollitia distinctio voluptas architecto error ab adipisci, iusto rerum eveniet non. Maxime provident cum sed!CONTACT THE FIRE DEPARTMENT IMMEDIATELY.
+                            </li>
+                        </ul>
+                    
+                        <br><br><br><br>
+                
+                        <li class="question">If you have any other questions, feel free to (contact us). If your dragon has mained someone, please call our (24/7 hotline) for help.
+                            
+                        </li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+                
+        <div style="background-color:white;padding:20px; text-align:center; ">
+            <h3 style="text-align:center;">CONTACT US</h3>
+            <form>
+                <br>
+                <input type="text" class="form-control" placeholder="Name">
+                <br> 
+                <br>
+                <input type="email" class="form-control" placeholder="Email">
+                <br>
+                <br>
+                <textarea type="text" class="form-control" placeholder="Comments or Questions" rows="3"></textarea>
+                <br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+   
+    <footer class="page-footer font-small white">
+        <div style="padding:20px" class="footer-copyright  text-center">
+            © 2018 Copyright: Autumn Henderson
+        </div>
+    </footer>
 </body>
 </html>
